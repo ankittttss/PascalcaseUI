@@ -15,7 +15,7 @@ const blogData = [
         "id": 1,
         "title": "Mastering Dynamics 365",
         "description": "A complete guide to streamline business processes using Dynamics 365 tools.",
-        "image": "/images/integration-card-microsoft-dynamics-365.webp",
+        "image": "/Images/integration-card-microsoft-dynamics-365.webp",
         "author": "Ankit Saini",
         "keywords": ["Dynamics 365", "CRM", "Automation"]
     },
@@ -23,7 +23,7 @@ const blogData = [
         "id": 2,
         "title": "CRM Customization Tips",
         "description": "Learn the best practices for customizing CRM forms, views, and workflows.",
-        "image": "/images/integration-card-microsoft-dynamics-365.webp",
+        "image": "/Images/integration-card-microsoft-dynamics-365.webp",
         "author": "Mahith Reddy",
         "keywords": ["CRM", "Customization", "Forms"]
     },
@@ -31,7 +31,7 @@ const blogData = [
         "id": 3,
         "title": "Power Platform Hacks",
         "description": "Boost productivity with these lesser-known Power Apps and Power Automate tricks.",
-        "image": "/images/integration-card-microsoft-dynamics-365.webp",
+        "image": "/Images/integration-card-microsoft-dynamics-365.webp",
         "author": "Himanshu Kumar",
         "keywords": ["Power Apps", "Power Automate", "Forms"]
     },
@@ -39,7 +39,7 @@ const blogData = [
         "id": 4,
         "title": "Advanced Power Automate Techniques",
         "description": "Learn advanced Power Automate techniques to improve business workflows.",
-        "image": "/images/Microsoft_Dynamics365_blog-1170x617-1.jpg",
+        "image": "/Images/Microsoft_Dynamics365_blog-1170x617-1.jpg",
         "author": "John Doe",
         "keywords": ["Power Automate", "Business Automation"]
     },
@@ -47,7 +47,7 @@ const blogData = [
         "id": 5,
         "title": "Optimizing Dynamics 365 for Sales",
         "description": "Best practices to optimize Dynamics 365 for sales processes.",
-        "image": "/images/Microsoft_Dynamics365_blog-1170x617-1.jpg",
+        "image": "/Images/Microsoft_Dynamics365_blog-1170x617-1.jpg",
         "author": "Jane Smith",
         "keywords": ["Dynamics 365", "Sales", "Optimization"]
     },
@@ -55,7 +55,7 @@ const blogData = [
         "id": 6,
         "title": "Understanding Power BI in Dynamics 365",
         "description": "Explore how to integrate Power BI with Dynamics 365 for advanced analytics.",
-        "image": "/images/Microsoft_Dynamics365_blog-1170x617-1.jpg",
+        "image": "/Images/Microsoft_Dynamics365_blog-1170x617-1.jpg",
         "author": "Arpit Singh",
         "keywords": ["Power BI", "Analytics", "Dynamics 365"]
     },
@@ -63,7 +63,7 @@ const blogData = [
         "id": 7,
         "title": "AI Integration with Dynamics 365",
         "description": "Leverage artificial intelligence to enhance your Dynamics 365 applications.",
-        "image": "/images/Microsoft_Dynamics365_blog-1170x617-1.jpg",
+        "image": "/Images/Microsoft_Dynamics365_blog-1170x617-1.jpg",
         "author": "Amit Sharma",
         "keywords": ["AI", "Dynamics 365", "Automation"]
     },
@@ -71,7 +71,7 @@ const blogData = [
         "id": 8,
         "title": "Building Custom Dashboards in Power Apps",
         "description": "Step-by-step guide to building custom dashboards in Power Apps.",
-        "image": "/images/Microsoft_Dynamics365_blog-1170x617-1.jpg",
+        "image": "/Images/Microsoft_Dynamics365_blog-1170x617-1.jpg",
         "author": "Neha Gupta",
         "keywords": ["Power Apps", "Dashboards", "Customization"]
     },
@@ -79,7 +79,7 @@ const blogData = [
         "id": 9,
         "title": "Automation with Power Automate in Office 365",
         "description": "Automate your tasks in Office 365 using Power Automate.",
-        "image": "/images/Microsoft_Dynamics365_blog-1170x617-1.jpg",
+        "image": "/Images/Microsoft_Dynamics365_blog-1170x617-1.jpg",
         "author": "Ravi Verma",
         "keywords": ["Power Automate", "Office 365", "Automation"]
     }

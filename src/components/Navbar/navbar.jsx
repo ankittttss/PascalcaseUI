@@ -117,7 +117,8 @@ export default function Navbar() {
               <FaChevronDown className="w-4 h-4 transition-transform duration-300" />
             </button>
             {activeDropdown === 0 && (
-              <div className="bg-white shadow rounded-md py-2 mt-1 px-2">
+              <div className="bg-white shadow rounded-md py-2 mt-1 px-4">
+
                 <Link href="/metadata" className="block px-2 py-1 text-sm text-gray-700 hover:bg-gray-100" onClick={closeMobileMenu}>
                   MetaData Browser
                 </Link>
