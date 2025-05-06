@@ -18,7 +18,7 @@ const productData = [
       "Convert HTML to PDF in Power Automate — without 2MB file limits. Create large, printable PDFs effortlessly.",
     mediaType: "image",
     src: "/Images/239859076-5d5e13f1-8877-4798-9f68-16c20f83767f.png",
-    link: "/products/html-to-pdf-converter", // Add your link here
+    link: "/HtmltoPdfConvertor", // Add your link here
   },
   {
     heading: "Data Mask app for Dataverse",
