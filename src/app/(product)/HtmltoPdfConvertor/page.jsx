@@ -346,7 +346,6 @@ export default function HtmltoPdfConvertor() {
           </li>
         </ol>
       </div>
-      );
     </div>
   );
 }

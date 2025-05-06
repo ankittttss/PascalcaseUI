@@ -8,6 +8,11 @@ export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [activeDropdown, setActiveDropdown] = useState(null);
 
+  const closeMobileMenu = () => {
+    setIsMenuOpen(false);
+    setActiveDropdown(null);
+  };
+
   return (
     <nav className="bg-white text-black shadow-md px-4 sm:px-8 py-4 fixed top-0 w-full z-50">
       <div className="flex items-center justify-between md:justify-normal md:gap-10">
@@ -46,7 +51,7 @@ export default function Navbar() {
                 <Link href="/metadata" className="block px-2 py-1 text-sm text-gray-700 hover:bg-gray-100">
                   MetaData Browser
                 </Link>
-                <Link href="HtmltoPdfConvertor" className="block px-2 py-1 text-sm text-gray-700 hover:bg-gray-100">
+                <Link href="/HtmltoPdfConvertor" className="block px-2 py-1 text-sm text-gray-700 hover:bg-gray-100">
                   HTML to PDF Convertor
                 </Link>
                 <Link href="/DataMasking" className="block px-2 py-1 text-sm text-gray-700 hover:bg-gray-100">
@@ -113,22 +118,22 @@ export default function Navbar() {
             </button>
             {activeDropdown === 0 && (
               <div className="bg-white shadow rounded-md py-2 mt-1 px-2">
-                <Link href="/metadata" className="block px-2 py-1 text-sm text-gray-700 hover:bg-gray-100">
+                <Link href="/metadata" className="block px-2 py-1 text-sm text-gray-700 hover:bg-gray-100" onClick={closeMobileMenu}>
                   MetaData Browser
                 </Link>
-                <Link href="\HtmltoPdfConvertor" className="block px-2 py-1 text-sm text-gray-700 hover:bg-gray-100">
+                <Link href="/HtmltoPdfConvertor" className="block px-2 py-1 text-sm text-gray-700 hover:bg-gray-100" onClick={closeMobileMenu}>
                   HTML to PDF Convertor
                 </Link>
-                <Link href="/DataMasking" className="block px-2 py-1 text-sm text-gray-700 hover:bg-gray-100">
+                <Link href="/DataMasking" className="block px-2 py-1 text-sm text-gray-700 hover:bg-gray-100" onClick={closeMobileMenu}>
                   DataMask for Dataverse
                 </Link>
-                <Link href="/Commission365" className="block px-2 py-1 text-sm text-gray-700 hover:bg-gray-100">
+                <Link href="/Commission365" className="block px-2 py-1 text-sm text-gray-700 hover:bg-gray-100" onClick={closeMobileMenu}>
                   Commission 365
                 </Link>
-                <Link href="/AIAutoCloser" className="block px-2 py-1 text-sm text-gray-700 hover:bg-gray-100">
+                <Link href="/AIAutoCloser" className="block px-2 py-1 text-sm text-gray-700 hover:bg-gray-100" onClick={closeMobileMenu}>
                   AI Autocloser
                 </Link>
-                <Link href="/FlowMonitor" className="block px-2 py-1 text-sm text-gray-700 hover:bg-gray-100">
+                <Link href="/FlowMonitor" className="block px-2 py-1 text-sm text-gray-700 hover:bg-gray-100" onClick={closeMobileMenu}>
                   Flow Monitor
                 </Link>
               </div>
@@ -140,6 +145,7 @@ export default function Navbar() {
             <Link
               href="/blogs"
               className="block px-4 py-2 text-gray-800 hover:text-blue-600"
+              onClick={closeMobileMenu}
             >
               Blogs
             </Link>

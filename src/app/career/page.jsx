@@ -107,7 +107,7 @@ export default function Career() {
           {/* Right Section (Image) */}
           <div className="w-full">
             <Image
-              src="/images/Careers-Headers.png"
+              src="/Images/Careers-Headers.png"
               alt="Career Hero"
               width={600}
               height={400}
