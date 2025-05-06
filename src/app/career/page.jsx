@@ -17,11 +17,6 @@ import {
 } from "react-icons/fa";
 import JobCard from "@/components/JobCard/jobcard";
 
-// export const metadata = {
-//   title: "Career | Pascalcase",
-//   description:
-//     "Join our team and explore exciting career opportunities at Pascalcase.",
-// };
 
 const jobOpenings = [
   {
@@ -48,14 +43,12 @@ const jobOpenings = [
       "Excellent Communication Skills",
     ],
   },
-  // Add more jobs similarly
 ];
 
 export default function Career() {
 
   const jobOpeningsRef = useRef(null);
 
-  // Scroll to the Job Openings section when the button is clicked
   const scrollToJobOpenings = () => {
     if (jobOpeningsRef.current) {
       jobOpeningsRef.current.scrollIntoView({ behavior: "smooth" });

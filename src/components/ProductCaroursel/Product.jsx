@@ -17,7 +17,7 @@ const productData = [
     description:
       "Convert HTML to PDF in Power Automate — without 2MB file limits. Create large, printable PDFs effortlessly.",
     mediaType: "image",
-    src: "../Images/239859076-5d5e13f1-8877-4798-9f68-16c20f83767f.png",
+    src: "/Images/239859076-5d5e13f1-8877-4798-9f68-16c20f83767f.png",
     link: "/products/html-to-pdf-converter", // Add your link here
   },
   {
@@ -33,7 +33,7 @@ const productData = [
     description:
       "Design and automate commission & incentive plans in Dynamics 365. Define rule sets, frequency, and eligible staff seamlessly.",
     mediaType: "image",
-    src: "../Images/commission365(2).webp",
+    src: "/Images/commission365(2).webp",
     link: "/Commission365", // Add your link here
   },
   {
@@ -73,11 +73,14 @@ export default function ProductShowcase() {
           >
             <div className="mb-2 aspect-[5/4] rounded-md overflow-hidden shadow-sm">
               {item.mediaType === "image" ? (
-                <img
-                  src={item.src}
-                  alt={item.heading}
-                  className="w-full h-full object-cover"
-                />
+                 <Image
+                 src={item.src}
+                 alt={item.heading}
+                 className="w-full h-full object-cover"
+                 width={500} // provide width
+                 height={400} // provide height
+                 layout="responsive" // ensures aspect ratio
+               />
               ) : item.mediaType === "iframe" ? (
                 <iframe
                   src={getEmbeddedUrl(item.src)}
