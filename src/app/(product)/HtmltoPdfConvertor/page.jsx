@@ -72,7 +72,7 @@ export default function HtmltoPdfConvertor() {
           <button
             onClick={() =>
               window.open(
-                "https://appsource.microsoft.com/en-us/product/web-apps/pascalcasesoftwareprivatelimited1662384934323.flowmonitor?ocid=GTMRewards_WhatsNewBlog_flowmonitor_08012024",
+                "https://learn.microsoft.com/en-us/connectors/htmltopdfconverter/",
                 "_blank"
               )
             }
@@ -150,7 +150,10 @@ export default function HtmltoPdfConvertor() {
               </ul>
             </div>
             <div>
-              <button className="bg-white text-black px-6 py-3 rounded-xl font-semibold hover:bg-gray-100 transition w-full mb-2">
+              <button onClick={()=>{
+                window.open("https://buy.stripe.com/dR6g269fm7BQbuMfZ1", "_blank")
+
+              }} className="bg-white text-black px-6 py-3 rounded-xl font-semibold hover:bg-gray-100 transition w-full mb-2">
                 Purchase using Stripe
               </button>
               <p className="text-sm text-red-200 text-center">
